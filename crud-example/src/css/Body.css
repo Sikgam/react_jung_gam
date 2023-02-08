@@ -1,0 +1,27 @@
+.body {
+  display: flex;
+  height: 100vh;
+  padding-bottom: 20px;
+
+}
+
+.leftdiv{
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+  background-color: red;
+}
+
+.centerdiv{
+  flex: 3;
+  margin: 5px;
+  padding: 5px;
+  background-color: green;
+}
+
+.rightdiv{
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+  background-color: grey;
+}

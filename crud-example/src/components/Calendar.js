@@ -1,7 +1,9 @@
+import '../css/Body.css'
+
 
 const Calendar = () => {
   return (
-    <div> Calendar</div>
+    <div id="wrapper"> Calendar</div>
   )
 }
 

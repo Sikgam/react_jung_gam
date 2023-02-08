@@ -1,15 +1,19 @@
-import useNavigate from "../hooks/useNavigate";
+import '../css/Body.css'
 
 const Home = () => {
-  const {goBoard} = useNavigate()
-  const {goCalendar} = useNavigate()
  
   return (
-    <div>
-      <button onClick={goBoard}> board </button>
 
-      <button onClick={goCalendar}> calendar</button>
+    <div className="body">
+      <div className="leftdiv">
 
+      </div>
+      <div className="centerdiv">
+
+      </div>
+      <div className="rightdiv">
+
+      </div>
     </div>
   )
 }

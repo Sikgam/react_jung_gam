@@ -1,21 +1,20 @@
-const Header = () => {
-  return( 
-  <header>
-    <div>
-      로고(home)
-    </div>
+import useNavigate from "../hooks/useNavigate";
+import "../css/Header.css";
 
-    <nav>
-      <ul>
-        <li>
-          메뉴1
-        </li>
-        <li>
-          메뉴2
-        </li>
-      </ul>
-    </nav>
-  </header>
+
+const Header = () => {
+
+  const {goBoard} = useNavigate()
+  const {goCalendar} = useNavigate()
+  const {goHome} = useNavigate()
+  return( 
+    <div className="header">
+        <ul>
+          <li onClick={goHome}>로고(home)</li>
+          <li onClick={goBoard}> board </li>
+          <li onClick={goCalendar}> calendar</li>
+        </ul>
+    </div>
   )
 }
 

@@ -5,7 +5,8 @@ const useNavigate = () => {
 
   return {
     goBoard: () => navigate("/board"),
-    goCalendar: () => navigate("/calendar")
+    goCalendar: () => navigate("/calendar"),
+    goHome: () => navigate("/")
     
 }
 }
